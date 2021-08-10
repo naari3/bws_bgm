@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D94A0DEE-F94B-4FC7-B234-EB71A1B7B453}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="VacuumShaders.LowPolyMeshGenerator">
+      <HintPath>E:\SteamLibrary\steamapps\common\Baby Walking Simulator\Baby Walking Simulator_Data\Managed\VacuumShaders.LowPolyMeshGenerator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ball.cs" />
+    <Compile Include="Balls.cs" />
+    <Compile Include="Colorful\AnalogTV.cs" />
+    <Compile Include="Colorful\BaseEffect.cs" />
+    <Compile Include="Colorful\BilateralGaussianBlur.cs" />
+    <Compile Include="Colorful\BleachBypass.cs" />
+    <Compile Include="Colorful\Blend.cs" />
+    <Compile Include="Colorful\BrightnessContrastGamma.cs" />
+    <Compile Include="Colorful\ChannelClamper.cs" />
+    <Compile Include="Colorful\ChannelMixer.cs" />
+    <Compile Include="Colorful\ChannelSwapper.cs" />
+    <Compile Include="Colorful\ChromaticAberration.cs" />
+    <Compile Include="Colorful\CLib.cs" />
+    <Compile Include="Colorful\ComicBook.cs" />
+    <Compile Include="Colorful\ContrastGain.cs" />
+    <Compile Include="Colorful\ContrastVignette.cs" />
+    <Compile Include="Colorful\Convolution3x3.cs" />
+    <Compile Include="Colorful\CrossStitch.cs" />
+    <Compile Include="Colorful\DirectionalBlur.cs" />
+    <Compile Include="Colorful\Dithering.cs" />
+    <Compile Include="Colorful\DoubleVision.cs" />
+    <Compile Include="Colorful\DynamicLookup.cs" />
+    <Compile Include="Colorful\FastVignette.cs" />
+    <Compile Include="Colorful\Frost.cs" />
+    <Compile Include="Colorful\GaussianBlur.cs" />
+    <Compile Include="Colorful\Glitch.cs" />
+    <Compile Include="Colorful\GradientRamp.cs" />
+    <Compile Include="Colorful\GradientRampDynamic.cs" />
+    <Compile Include="Colorful\GrainyBlur.cs" />
+    <Compile Include="Colorful\Grayscale.cs" />
+    <Compile Include="Colorful\Halftone.cs" />
+    <Compile Include="Colorful\Histogram.cs" />
+    <Compile Include="Colorful\HueFocus.cs" />
+    <Compile Include="Colorful\HueSaturationValue.cs" />
+    <Compile Include="Colorful\Kuwahara.cs" />
+    <Compile Include="Colorful\Led.cs" />
+    <Compile Include="Colorful\LensDistortionBlur.cs" />
+    <Compile Include="Colorful\Letterbox.cs" />
+    <Compile Include="Colorful\Levels.cs" />
+    <Compile Include="Colorful\LoFiPalette.cs" />
+    <Compile Include="Colorful\LookupFilter.cs" />
+    <Compile Include="Colorful\LookupFilter3D.cs" />
+    <Compile Include="Colorful\MinAttribute.cs" />
+    <Compile Include="Colorful\Negative.cs" />
+    <Compile Include="Colorful\Noise.cs" />
+    <Compile Include="Colorful\PhotoFilter.cs" />
+    <Compile Include="Colorful\Pixelate.cs" />
+    <Compile Include="Colorful\PixelMatrix.cs" />
+    <Compile Include="Colorful\Posterize.cs" />
+    <Compile Include="Colorful\RadialBlur.cs" />
+    <Compile Include="Colorful\RGBSplit.cs" />
+    <Compile Include="Colorful\SCurveContrast.cs" />
+    <Compile Include="Colorful\ShadowsMidtonesHighlights.cs" />
+    <Compile Include="Colorful\Sharpen.cs" />
+    <Compile Include="Colorful\SmartSaturation.cs" />
+    <Compile Include="Colorful\Strokes.cs" />
+    <Compile Include="Colorful\Technicolor.cs" />
+    <Compile Include="Colorful\Threshold.cs" />
+    <Compile Include="Colorful\TVVignette.cs" />
+    <Compile Include="Colorful\Vibrance.cs" />
+    <Compile Include="Colorful\Vintage.cs" />
+    <Compile Include="Colorful\VintageFast.cs" />
+    <Compile Include="Colorful\WaveDistortion.cs" />
+    <Compile Include="Colorful\WhiteBalance.cs" />
+    <Compile Include="Colorful\Wiggle.cs" />
+    <Compile Include="Intro.cs" />
+    <Compile Include="LapinerTools\Steam\Data\ErrorEventArgs.cs" />
+    <Compile Include="LapinerTools\Steam\Data\EventArgsBase.cs" />
+    <Compile Include="LapinerTools\Steam\Data\Internal\SteamRequestList.cs" />
+    <Compile Include="LapinerTools\Steam\Data\LeaderboardsDownloadedScoresEventArgs.cs" />
+    <Compile Include="LapinerTools\Steam\Data\LeaderboardsScoreEntry.cs" />
+    <Compile Include="LapinerTools\Steam\Data\LeaderboardsUploadedScoreEventArgs.cs" />
+    <Compile Include="LapinerTools\Steam\SteamLeaderboardsMain.cs" />
+    <Compile Include="LapinerTools\Steam\SteamMainBase.cs" />
+    <Compile Include="LapinerTools\Steam\UI\SteamLeaderboardsPopup.cs" />
+    <Compile Include="LapinerTools\Steam\UI\SteamLeaderboardsScoreEntryNode.cs" />
+    <Compile Include="LapinerTools\Steam\UI\SteamLeaderboardsUI.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_AnimationTrigger.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_ColorPicker.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_Draggable.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_Dropdown.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_PageBox.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_Popup.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_PopupButtons.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_PopupDropdown.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_PopupManager.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_PopupText.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_PopupTexturePicker.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_ScrollbarHandleUnityFix.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_SliderSynchronizer.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_TabBox.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_TexturePicker.cs" />
+    <Compile Include="LapinerTools\uMyGUI\uMyGUI_TreeBrowser.cs" />
+    <Compile Include="Leaderboard.cs" />
+    <Compile Include="Level.cs" />
+    <Compile Include="Loading.cs" />
+    <Compile Include="Music.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="RotateMoveCamera.cs" />
+    <Compile Include="Runtime_LowPolyMesh.cs" />
+    <Compile Include="Runtime_LowPolyTerrain.cs" />
+    <Compile Include="Runtime_MeshCombine.cs" />
+    <Compile Include="Starting.cs" />
+    <Compile Include="SteamLeaderboardsExampleAdvancedSettings.cs" />
+    <Compile Include="SteamLeaderboardsExamplePopup.cs" />
+    <Compile Include="SteamLeaderboardsExampleStatic.cs" />
+    <Compile Include="SteamManager.cs" />
+    <Compile Include="WavUtility.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
